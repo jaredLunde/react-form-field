@@ -1,6 +1,6 @@
 {
   "name": "@jaredlunde/react-form-field",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A basic FormField state container for React",
   "main": "cjs/index.js",
   "module": "es/index.js",
@@ -15,12 +15,12 @@
     "react": "^16.4.2"
   },
   "dependencies": {
-    "@babel/runtime": "^7.0.0-rc.2",
+    "@babel/runtime": "^7.0.0",
     "empty": "^0.10.1"
   },
   "devDependencies": {
-    "@jaredlunde/babel-preset-esx": "^1.0.1",
-    "@jaredlunde/babel-preset-react": "^1.0.1",
+    "@inst-app/babel-preset-esx": "^1.0.0",
+    "@inst-app/babel-preset-react": "^1.0.0",
     "cross-env": "^5.2.0",
     "prettier": "^1.14.2"
   },
