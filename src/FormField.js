@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import dummyChange from 'empty/function'
 
 
-export class FormField extends React.PureComponent {
+export default class FormField extends React.PureComponent {
   static propTypes = {
     validator: PropTypes.func,
     transformer: PropTypes.func,
